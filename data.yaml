@@ -1,0 +1,19 @@
+# Este archivo te lo genera automáticamente Roboflow
+# al descaragar el dataset
+
+# No olvides declarar los paths de acuerdo a tu computadora
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3 # Stands for 'number of classes'
+names: ['Centros', 'Cortador_Bola', 'Cortador_Plano']
+
+
+# A esto no debes moverle nada solito te lo da Roboflow
+roboflow:
+  workspace: enigma-htnii
+  project: blue-4.0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/enigma-htnii/blue-4.0/dataset/2
